@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">  
+        <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+                <div class="navbar-brand" >
+                    <img src="img/codoacodo.png" alt="Codo a Codo" width="150"> 
+                    <a class="navbar-brand" id="titulo" href="#">Conf Bs As</a>
+                </div>
+
+                <div class="justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">   
+                        <li class="nav-item">
+                            <a id="li1" class="nav-link active" aria-current="page" href="index.html">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="li2" class="nav-link" href="#">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="li2" class="nav-link" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="li2" class="nav-link" href="#">Conviértete en orador</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="li3" class="nav-link" >Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="contenedor_general">
+            <br>
+            <br>
+            <div class="categorias">
+                <div class="categ" id="cat1" >
+                    <h4>Estudiante</h4>
+                    <br>
+                    <p><b>Tienen un descuento</b></p>
+                    <br>
+                    <h5>80%</h5>
+                    <br>
+                    <h6>*Presentar documentación</h6>
+                </div>
+                <div class="categ" id="cat2" >
+                    <h4>Trainee</h4>
+                    <br>
+                    <p><b>Tienen un descuento</b></p>
+                    <br>
+                    <h5>50%</h5>
+                    <br>
+                    <h6>*Presentar documentación</h6>
+                </div>
+                <div class="categ" id="cat3" >
+                    <h4>Junior</h4>
+                    <br>
+                    <p><b>Tienen un descuento</b></p>
+                    <br>
+                    <h5>15%</h5>
+                    <br>
+                    <h6>*Presentar documentación</h6>
+                </div>
+            </div>
+            <br>
+            <h6>VENTA</h6>
+            <h2>VALOR DE TICKET $200</h2>
+            <br>
+            <div class="caja-form1">
+                <div class="col-md-6 separacion">
+                    <input class="form-control" type="text" placeholder="Nombre" id="nombre" aria-label="Nombre" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6 separacion">
+                    <input class="form-control" type="text" placeholder="Apellido" id="apellido" aria-label="Apellido" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="caja-form2">
+                <div class="col-md-12 separacion">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="mail" placeholder="Correo">
+                    </div>
+                </div>
+            </div>
+            <div class="caja-form1">
+                <div class="col-md-6 separacion">
+                    <p>Cantidad</p>
+                    <input class="form-control" type="text" placeholder="Cantidad" id="cantidadTickets" aria-label="Cantidad" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6 separacion">
+                    <p>Categoría</p>
+                    <select class="form-select" id="categoriaSelect" aria-label="Default select example">
+                        <option selected>--Seleccione--</option>
+                        <option value="0">Sin Categoría</option>
+                        <option value="1">Estudiante</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
+                      </select>
+                </div>
+            </div>
+            <br>
+            <div class="caja-form2">
+                <div class="col-md-12 separacion">
+                    <input class="form-control" type="text"  value="Total a pagar $" id="totalPago" aria-label="readonly input example" readonly>
+                </div>
+            </div>
+            <br>
+            <div class="caja-form1">
+                <div class="col-md-6 separacion">
+                    <div class="d-grid gap-2">
+                        <button id="btnBorrar" class="btn btn-primary color-boton" type="button">Borrar</button>
+                    </div>  
+                </div> 
+                <div class="col-md-6 separacion">
+                    <div class="d-grid gap-2">
+                        <button id="btnResumen" class="btn btn-primary color-boton" type="button">Resumen</button>
+                    </div> 
+                </div>  
+            </div>
+            <br>
+            <br>
+            <footer>
+                <div class="cont-footer">
+                    <div class="link-footer"> <a href="#">Preguntas frecuentes</a></div>
+                    <div class="link-footer"> <a href="#">Contáctanos</a></div>
+                    <div class="link-footer"> <a href="#">Prensa</a></div>
+                    <div class="link-footer"> <a href="#">Conferencias</a></div>
+                    <div class="link-footer"> <a href="#">Términos y condiciones</a></div>
+                    <div class="link-footer"> <a href="#">Privacidad</a></div>
+                    <div class="link-footer"> <a href="#">Estudiantes</a></div>
+                </div>
+            </footer>
+        </div>
+        <script src="./comprar-tickets.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+    </body>
+</html>

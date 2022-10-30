@@ -1,0 +1,234 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+.caja-cartas
+{
+ width: 80%;
+
+ /*background-color: aqua;*/
+ margin: auto;
+}
+
+.card-title{
+ text-align: left;
+}
+
+.caja-form1
+{
+ width: 62%;
+ 
+ /*background-color: aqua;*/
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+
+.caja-form2
+{
+ width: 62%;
+ /*background-color: aqua;*/
+ margin: auto;
+
+}
+.caja-imagen
+{
+    width: 550px;
+    height: 250px;
+   /* background-color: aqua; */
+    text-align: right;
+}
+
+footer
+{
+    width: 100%;
+    background-color:#3D3B3B ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 800px){
+    .link-footer {
+        font-size: 10px; 
+    }    
+}
+.cont-footer{
+    width:80%;
+   /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.link-footer 
+{
+    width: 10%;
+    text-align: center;
+    margin-top: 10px;
+    /*background-color: rgb(10, 207, 20) ;*/
+    
+}
+
+
+.separacion /*separación de los inputs*/
+{
+padding: 1%; 
+
+}
+
+.categorias{
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   /* background-color: red ;*/
+   
+}
+
+.categ{
+    width: 33%;
+    height: 20%;
+    border-style: solid;
+    /*border-color: green;*/
+    border-width: 3px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#cat1{
+    border-color: blue;
+
+}
+
+#cat2{
+    border-color: rgb(102, 131, 190);
+   
+}
+
+#cat3{
+    border-color: orangered;
+
+}
+
+.contenedor_general{
+    width: 100%;
+    margin:0 auto;
+    background-color: white; 
+  /*  overflow: hidden; */
+
+}
+
+
+
+.w-100 /*para hacer mas claras las imagenes del carrousel*/
+{
+    filter: brightness(40%);
+}
+
+.carousel-caption /* para acomodar el texto a la derecha del carrousel*/
+{
+margin-bottom: 10%;
+margin-left: 30%;
+width: 45%;
+display: flex;
+text-align: end !important;
+}
+
+#titulo 
+{
+ color: white;   
+ font-size: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto
+{
+ color: white;   
+ font-size: 15px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnEnviar, #btnBorrar, #btnResumen
+{
+background-color: lawngreen;
+border-color: lawngreen;
+}
+
+#li1
+{
+color: white;
+}
+
+#li2
+{
+color: grey;
+}
+
+#li3
+{
+color: green;
+}
+
+#letra-boton
+{
+color: white;
+border-color: white;
+}
+
+
+#totalPago{
+    border-color: blue;
+    background-color: rgb(167, 215, 245);
+    color: rgb(51, 51, 248);
+}
+
+.fondogris
+{
+ margin: 0px;
+ padding: 0px;
+ background-color: #3D3B3B; 
+ text-align: left;  
+}
+
+h6
+{
+color: #635C5B;
+text-align: center;
+}
+
+h5
+{
+text-align: center;
+}
+
+h4
+{
+text-align: center;
+}
+
+h3
+{
+text-align: center;
+}
+
+h2
+{
+text-align: center;
+}
+
+#subr
+{
+ text-decoration: underline dotted;
+}
+
+div > a
+{
+text-decoration: none;
+color: white;
+
+}
